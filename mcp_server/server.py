@@ -18,8 +18,9 @@ K_SAMPLE = os.getenv("K_SAMPLE")
 MCP_URL = os.getenv("MCP_URL")
 MODEL = os.getenv("MODEL")
 MULTI_QUERY = os.getenv("MULTI_QUERY")
+OMD_API_KEY = os.getenv("OMD_API_KEY")
 
-if any(x is None for x in [BASE_URL, EMBEDDING_MODEL, K_SAMPLE, MCP_URL, MODEL, MULTI_QUERY]):
+if any(x is None for x in [BASE_URL, EMBEDDING_MODEL, K_SAMPLE, MCP_URL, MODEL, MULTI_QUERY, OMD_API_KEY]):
     print("Env is None")
     exit()
 K_SAMPLE = max(int(K_SAMPLE)-1,0) #type: ignore
@@ -76,7 +77,7 @@ async def fetch_omd(client: httpx.AsyncClient, movie_name: str) -> Optional[dict
         url = "http://www.omdbapi.com/"
         params = {
             "t": movie_name,
-            "apikey": "ac7ede43"
+            "apikey": OMD_API_KEY
         }
         
         response = await client.get(url, params=params, timeout=5.0)
