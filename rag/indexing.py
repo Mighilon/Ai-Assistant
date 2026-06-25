@@ -64,7 +64,7 @@ def process_documents(documents):
     chunks = []
     id = 0
     for doc in documents:
-        chunks_ret, id = chunk_document(doc, doc[0].metadata['title'][:-12], id)
+        chunks_ret, id = chunk_document(doc, doc[0].metadata['source'][10:-4], id)
         chunks.extend(chunks_ret)
     return chunks
 
