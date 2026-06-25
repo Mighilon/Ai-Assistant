@@ -41,3 +41,7 @@ Toy Story was released by Walt Disney Home Video on VHS and LaserDisc in the Uni
 How many individual bunny characters intended to have the 'Bambi' film?  
 Originally, the film was intended to have six individual bunny characters, similar to the dwarfs in Snow White. However, the concept evolved to include five generic rabbits and one rabbit with a distinct coloring and dental feature. The initial cast included Thumper (a pink-nosed cottontail), Flower (a skunk), and Faline.    
 *Correct*  
+
+What are the ratings of Bambi movie?  
+The movie *Bambi* has an average rating of 7.3 out of 10 on IMDb, 91% on Rotten Tomatoes, and 91 out of 100 on Metacritic.  
+*Correct* usage of the tool  

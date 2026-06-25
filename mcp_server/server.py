@@ -23,8 +23,8 @@ OMD_API_KEY = os.getenv("OMD_API_KEY")
 if any(x is None for x in [BASE_URL, EMBEDDING_MODEL, K_SAMPLE, MCP_URL, MODEL, MULTI_QUERY, OMD_API_KEY]):
     print("Env is None")
     exit()
-K_SAMPLE = max(int(K_SAMPLE)-1,0) #type: ignore
-MULTI_QUERY = int(MULTI_QUERY) #type: ignore
+K_SAMPLE = int(K_SAMPLE) #type: ignore
+MULTI_QUERY = max(int(MULTI_QUERY)-1,0) #type: ignore
 
 
 class LocalEmbeddings(Embeddings):
