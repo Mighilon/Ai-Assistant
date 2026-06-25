@@ -1,6 +1,6 @@
-Who composed the musical score for Bambi?
-The musical score for Bambi was composed by Frank Churchill and Edward Plumb.
-*Correct*
+Who composed the musical score for Bambi? 
+The musical score for Bambi was composed by Frank Churchill and Edward Plumb. 
+*Correct* 
 
 How long is the runtime of Toy Story?
 The runtime of Toy Story is 95 minutes.
